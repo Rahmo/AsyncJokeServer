@@ -1,0 +1,109 @@
+2nd Thread: Abdulrahman's Admin looper is starting up 
+1st Thread: Abdulrahman's Joke server starting up.
+
+Abdulrahman's Joke Client, 1.8.
+
+Using server: localhost, Port: 45001
+Please enter your name  
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+Hey:Rahmo  D.Why doesn't NASA send cows to space?  
+  Because the steak would be too high.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+Hey:Rahmo  C.What did the grape say after the elephant stepped on him?  
+  Nothing, he just let out a little whine.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+Hey:Rahmo  A.Why are relationships complex?   
+  Because you're real, but your girlfriend is imaginary
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+Hey:Rahmo  B.What does a Dallas Cowboys fan do when his team has won the Super Bowl?  
+  He turns off the PlayStation.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+Hey:Rahmo  E.You are smiling ? 
+ Good :-) 
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+Hey:Rahmo  E.You are smiling ? 
+ Good :-) 
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+Hey:Rahmo  B.What does a Dallas Cowboys fan do when his team has won the Super Bowl?  
+  He turns off the PlayStation.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+Hey:Rahmo  A.Why are relationships complex?   
+  Because you're real, but your girlfriend is imaginary
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+Hey:Rahmo  D.Why doesn't NASA send cows to space?  
+  Because the steak would be too high.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+Hey:Rahmo  C.What did the grape say after the elephant stepped on him?  
+  Nothing, he just let out a little whine.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+Abdulrahman Joke Client, 1.7.
+————————————————————————
+>Java JokeClinetAdmin
+Using server: localhost, Port: 45005
+Enter the mode that you want to switch: 
+ The valid inputs are  : 
+ a) Joke mode 
+ b)Proverb mode 
+ c) Maintance mode

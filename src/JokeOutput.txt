@@ -1,0 +1,615 @@
+
+Run your sever with multiple clients active at the same time. Interleave requests from different clients. 
+Capture ten output responses from one client in joke mode, ten in proverb mode,
+ showing that the jokes and proverbs are returned randomly, 
+but not repeated until all five have been sent back.
+
+
+a) 10 jokes from 1 Abdulrahmans client:
+
+------------------------------------------------------------------------
+Last login: Sun Jan 25 15:43:35 on ttys000
+Abdulrahmans-MacBook-Pro:~ abdulrahman$ cd /Users/abdulrahman/Documents/2015Workspace/JokeHW/src 
+Abdulrahmans-MacBook-Pro:src abdulrahman$ java JokeServer
+2nd Thread: Abdulrahman's Admin looper is starting up 
+1st Thread: Abdulrahman's Joke server starting up.
+
+
+
+-------
+
+Last login: Sun Jan 25 15:48:53 on ttys000
+Abdulrahmans-MacBook-Pro:~ abdulrahman$ cd /Users/abdulrahman/Documents/2015Workspace/JokeHW/src 
+Abdulrahmans-MacBook-Pro:src abdulrahman$ java JokeClient 
+Abdulrahman's Joke Client, 1.8.
+
+Using server: localhost, Port: 45001
+Please enter your name  Abdulrahman
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman  A.Why are relationships complex?   
+  Because you're real, but your girlfriend is imaginary
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman  D.Why doesn't NASA send cows to space?  
+  Because the steak would be too high.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman  E.You are smiling ? 
+ Good :-) 
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman  B.What does a Dallas Cowboys fan do when his team has won the Super Bowl?  
+  He turns off the PlayStation.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman  C.What did the grape say after the elephant stepped on him?  
+  Nothing, he just let out a little whine.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman  C.What did the grape say after the elephant stepped on him?  
+  Nothing, he just let out a little whine.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman  D.Why doesn't NASA send cows to space?  
+  Because the steak would be too high.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman  A.Why are relationships complex?   
+  Because you're real, but your girlfriend is imaginary
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman  E.You are smiling ? 
+ Good :-) 
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman  B.What does a Dallas Cowboys fan do when his team has won the Super Bowl?  
+  He turns off the PlayStation.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+---------------------------------------------------------------------------------------
+b) 10 proverbs from  Abdulrahmans client:
+*****************************
+
+Hey:Abdulrahman The Provereb :  D.The tongue has no bones, yet it crushes bones.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman The Provereb :  B.Money is a good servant but a bad master.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman The Provereb :  A.When the winds of change blow, some people build walls and others build windmills.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman The Provereb :  C.If you want to go fast, go alone. If you want to go far, go together.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman The Provereb :  E.Don't speak unless you can improve the silence.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman The Provereb :  B.Money is a good servant but a bad master.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman The Provereb :  A.When the winds of change blow, some people build walls and others build windmills.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman The Provereb :  C.If you want to go fast, go alone. If you want to go far, go together.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman The Provereb :  D.The tongue has no bones, yet it crushes bones.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman The Provereb :  E.Don't speak unless you can improve the silence.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+------------------------------------------
+c)10 Proverbs for Rahmo client 
+******************************
+
+
+Last login: Sun Jan 25 15:51:11 on ttys002
+Abdulrahmans-MacBook-Pro:~ abdulrahman$ cd /Users/abdulrahman/Documents/2015Workspace/JokeHW/src 
+Abdulrahmans-MacBook-Pro:src abdulrahman$ java JokeClient 
+Abdulrahman's Joke Client, 1.8.
+
+Using server: localhost, Port: 45001
+Please enter your name  Rahmo
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo The Provereb :  D.The tongue has no bones, yet it crushes bones.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo The Provereb :  C.If you want to go fast, go alone. If you want to go far, go together.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo The Provereb :  B.Money is a good servant but a bad master.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo The Provereb :  E.Don't speak unless you can improve the silence.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo The Provereb :  A.When the winds of change blow, some people build walls and others build windmills.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo The Provereb :  C.If you want to go fast, go alone. If you want to go far, go together.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo The Provereb :  E.Don't speak unless you can improve the silence.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo The Provereb :  D.The tongue has no bones, yet it crushes bones.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo The Provereb :  B.Money is a good servant but a bad master.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo The Provereb :  A.When the winds of change blow, some people build walls and others build windmills.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+--------------------------------------------
+
+d)10 Jokes for Rahmo client 
+************************************************
+
+Hey:Rahmo  A.Why are relationships complex?   
+  Because you're real, but your girlfriend is imaginary
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo  B.What does a Dallas Cowboys fan do when his team has won the Super Bowl?  
+  He turns off the PlayStation.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo  C.What did the grape say after the elephant stepped on him?  
+  Nothing, he just let out a little whine.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo  D.Why doesn't NASA send cows to space?  
+  Because the steak would be too high.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo  E.You are smiling ? 
+ Good :-) 
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo  D.Why doesn't NASA send cows to space?  
+  Because the steak would be too high.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo  B.What does a Dallas Cowboys fan do when his team has won the Super Bowl?  
+  He turns off the PlayStation.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo  A.Why are relationships complex?   
+  Because you're real, but your girlfriend is imaginary
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo  E.You are smiling ? 
+ Good :-) 
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Rahmo  C.What did the grape say after the elephant stepped on him?  
+  Nothing, he just let out a little whine.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+---------------------------------------------------------------------------------------------------------------------
+e) the Client Admin window snap 
+************************************
+
+Last login: Sun Jan 25 15:49:01 on ttys001
+Abdulrahmans-MacBook-Pro:~ abdulrahman$ cd /Users/abdulrahman/Documents/2015Workspace/JokeHW/src 
+Abdulrahmans-MacBook-Pro:src abdulrahman$ java JokeClientAdmin
+Abdulrahman Joke Client Admin, 1.8.
+
+Using server: localhost, Port: 45005
+Enter the mode that you want to switch: 
+ The valid inputs are  : 
+ a) Joke mode 
+ b) Proverb mode 
+ c) Maintance mode 
+b
+you chose a Proverb mode
+Enter the mode that you want to switch: 
+ The valid inputs are  : 
+ a) Joke mode 
+ b) Proverb mode 
+ c) Maintance mode 
+a
+------------------------------------------------------------------------
+f)the server window while interacting with clients 
+***************************************
+Last login: Sun Jan 25 15:45:49 on ttys001
+Abdulrahmans-MacBook-Pro:~ abdulrahman$ cd /Users/abdulrahman/Documents/2015Workspace/JokeHW/src 
+Abdulrahmans-MacBook-Pro:src abdulrahman$ java JokeServer
+2nd Thread: Abdulrahman's Admin looper is starting up 
+1st Thread: Abdulrahman's Joke server starting up.
+
+0 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+the current running mode is b
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Abdulrahman is connected. 
+JokeServer received a response from Abdulrahman .
+
+1 Clients connected !!
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+2 Clients connected !!
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+2 Clients connected !!
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+2 Clients connected !!
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+2 Clients connected !!
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+2 Clients connected !!
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+2 Clients connected !!
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+2 Clients connected !!
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+2 Clients connected !!
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+2 Clients connected !!
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+the current running mode is a
+2 Clients connected !!
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+2 Clients connected !!
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+2 Clients connected !!
+User: Rahmo is connected. 
+JokeServer received a response from Rahmo .
+
+
+---------------------------------------------------------------------------------------------------------------------
+Repeat the process, but this time use your adminstration client to interleave joke-mode and proverb-mode, 
+showing that state is correctly maintained across changes between modes.
+
+******************************************************************
+a)10 output between Jokes and proverbs showing the state maintainabilty .(default is Jokes mode)
+*******************************************************
+Last login: Sun Jan 25 15:52:57 on ttys003
+Abdulrahmans-MacBook-Pro:~ abdulrahman$ cd /Users/abdulrahman/Documents/2015Workspace/JokeHW/src 
+Abdulrahmans-MacBook-Pro:src abdulrahman$ java JokeClient 
+Abdulrahman's Joke Client, 1.8.
+
+Using server: localhost, Port: 45001
+Please enter your name  Abdulrahman 
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman   C.What did the grape say after the elephant stepped on him?  
+  Nothing, he just let out a little whine.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman   E.You are smiling ? 
+ Good :-) 
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman   A.Why are relationships complex?   
+  Because you're real, but your girlfriend is imaginary
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+///////////////////////////////////////////////////////////////////////////////
+Then change in the client  admin to Proverb
+//////////////////////////////////////////////////////////////////////////////
+Last login: Sun Jan 25 15:49:01 on ttys001
+Abdulrahmans-MacBook-Pro:~ abdulrahman$ cd /Users/abdulrahman/Documents/2015Workspace/JokeHW/src 
+Abdulrahmans-MacBook-Pro:src abdulrahman$ java JokeClientAdmin
+Abdulrahman Joke Client Admin, 1.8.
+
+Using server: localhost, Port: 45005
+Enter the mode that you want to switch: 
+ The valid inputs are  : 
+ a) Joke mode 
+ b) Proverb mode 
+ c) Maintance mode 
+b
+//////////////////////////////////////////////////////////////////////////////
+next is back to the client 
+////////////////////////////////////////////////////////////////
+
+Hey:Abdulrahman  The Provereb :  E.Don't speak unless you can improve the silence.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman  The Provereb :  D.The tongue has no bones, yet it crushes bones.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+///////////////////////////////////////////////////////////////////////////////
+Then change back in the client admin to Joks
+//////////////////////////////////////////////////////////////////////////////
+Hey:Abdulrahman   D.Why doesn't NASA send cows to space?  
+  Because the steak would be too high.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman   B.What does a Dallas Cowboys fan do when his team has won the Super Bowl?  
+  He turns off the PlayStation.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+///////////////////////////////////////////////////////////////////////////////
+Then change back in the client admin to Proverb
+//////////////////////////////////////////////////////////////////////////////
+
+Hey:Abdulrahman  The Provereb :  A.When the winds of change blow, some people build walls and others build windmills.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman  The Provereb :  B.Money is a good servant but a bad master.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Hey:Abdulrahman  The Provereb :  C.If you want to go fast, go alone. If you want to go far, go together.
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+////////////////////////////////////////////////////////////////////
+
+As its shown above is randomize and showing  joke and proverb without repeating 
+//////////////////////////////////////////
+last showing a snap of when is the server is in maintainance mode
+
+
+
+Sorry Abdulrahman  The server is in maintainance mode Please try again later
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+Sorry Abdulrahman  The server is in maintainance mode Please try again later
+
+ Press Enter to get Jokes or Proverbs 
+ The valid inputs are : 
+ (quit) to close the client. 
+
+
+
+
+
